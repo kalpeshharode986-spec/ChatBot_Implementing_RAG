@@ -48,7 +48,7 @@ db.save_local("My_db") # saving the vector database
 
 db = FAISS.load_local("My_db", embeddings , allow_dangerous_deserialization=True)
 
-
+# hwllo
 
 query = input("Enter your question: ") # user se question lena
 
